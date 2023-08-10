@@ -30,7 +30,7 @@ pipeline {
         stage('Deploy') {
             steps {
               echo 'Deploy'
-             sh java -jar target/Inventory-1.0.jar
+           
             }
         }
     }
