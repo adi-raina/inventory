@@ -30,7 +30,7 @@ pipeline {
         stage('Deploy') {
             steps {
               echo 'Deploy'
-              mvn spring-boot:run
+              sh 'mvn spring-boot:run'
             }
         }
     }
